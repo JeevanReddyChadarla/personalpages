@@ -5,8 +5,10 @@ import style from './Feeder.module.scss'
 
 const Feeder = ({ inputData }) => {
     return (
-        <div className='sameline'>
+       
         <div className={style['o-feeder']}>    
+            
+            <section>
             {
                 inputData.map(
                     (k, index) => 
@@ -16,10 +18,11 @@ const Feeder = ({ inputData }) => {
                     </InputCustom>
                     </div>
                 )}
-        </div>
-        <div className='sameline'>
-        <UploadCustom className='uploadbutton' text='Upload'/>
-        </div>
+            </section>
+       <section>
+      
+        <UploadCustom text='Upload' />
+        </section>
         </div>
     );
 };

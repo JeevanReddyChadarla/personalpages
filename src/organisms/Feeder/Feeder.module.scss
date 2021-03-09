@@ -1,5 +1,5 @@
 input[type=text] {
-    width: 80%;
+  width: 200%;
     padding: 10px 30px;
     margin: 8px 0px;
     box-sizing: border-box;
@@ -8,22 +8,21 @@ input[type=text] {
     outline: darkblue;
   }
   
-  input[type=text]:focus {
-    border: 3px solid #555;
-  }
+  
   .o-feeder{
     padding-left: 100px;
     padding-top: 20px;
     padding-bottom: 20px;
+    padding-right: 100px;
     border-radius: 5px;
     margin-left: 80px;
-    width: 40%;
-  background-color: rgb(218, 218, 248);
+    margin-right: 80px;
+    width : 100%;
+    background-color: rgb(218, 218, 248);
+  display: flex;
+
   }
-  .h3class{
-      padding-left: 100px;
-  }
-  .sameline{
-    display: flex;
-  }
+  
+
+ 
  

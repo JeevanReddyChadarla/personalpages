@@ -6,10 +6,10 @@ const InputCustom = ({data}) => {
         <div className='colors-4-hex'>
         <h3>{data}:</h3>
         <Input 
-        type="text"
-        label={data}
-        name={data}
-        placeholder= {data}
+          type="text"
+          label={data}
+          name={data}
+          placeholder= {data}
       />
 
       

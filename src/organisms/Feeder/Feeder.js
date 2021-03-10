@@ -7,8 +7,9 @@ import style from './Feeder.module.scss'
 const Feeder = ({ inputData }) => {
     return (
        
-        <div className={style['o-feeder']}>    
-            
+        //<div className={style['o-feeder']}>    
+          <div className={style['grid-container']}> 
+          <div className={style['item1']}> 
             <section>
             {
                 inputData.map(
@@ -19,7 +20,7 @@ const Feeder = ({ inputData }) => {
                 )}
                 <Button className={style['button']} type="primary">Confirm</Button>
             </section>
-            
+            </div>
             <section>
              <UploadCustom  text='Upload' />
             </section>

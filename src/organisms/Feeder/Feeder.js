@@ -19,9 +19,10 @@ const Feeder = ({ inputData }) => {
                 )}
                 <Button className={style['button']} type="primary">Confirm</Button>
              </section>
+             
              <section className={style['middle']}>
              <UploadCustom className={style['upload']}  text='Upload video'/>
-             <h3>Select a video file to upload here</h3>
+             <h3>Select a file to upload a video here</h3>
             </section>
         </div>
     );

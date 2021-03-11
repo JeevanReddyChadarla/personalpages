@@ -4,9 +4,10 @@ import { Button } from 'antd';
 
 const ButtonCustom = ({text}) => {
     return (
-        <div className='colors-4-hex'>
+        <div className={style['button']}>
            <Button type="text">
                <p>{text}</p>
+               <span></span><span></span><span></span><span></span>
            </Button>
         </div>
     );

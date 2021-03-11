@@ -7,7 +7,7 @@ const UploadCustom = ({text}) => {
     return (
         <div className={style['upload-feeder']}>
            <Upload>
-            <Button icon={<UploadOutlined />}>{text}</Button>
+            <Button className={style['Button']} icon={<UploadOutlined />}>{text}</Button>
             </Upload>
         </div>
     );

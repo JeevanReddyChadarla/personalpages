@@ -8,8 +8,7 @@ const Feeder = ({ inputData }) => {
     return (
        
         //<div className={style['o-feeder']}>    
-          <div className={style['grid-container']}> 
-          <div className={style['item1']}> 
+          <div className={style['myForm']}> 
             <section>
             {
                 inputData.map(
@@ -19,10 +18,10 @@ const Feeder = ({ inputData }) => {
                     </div>
                 )}
                 <Button className={style['button']} type="primary">Confirm</Button>
-            </section>
-            </div>
-            <section>
-             <UploadCustom  text='Upload' />
+             </section>
+             <section className={style['middle']}>
+             <UploadCustom className={style['upload']}  text='Upload video'/>
+             <h3>Select a video file to upload here</h3>
             </section>
         </div>
     );

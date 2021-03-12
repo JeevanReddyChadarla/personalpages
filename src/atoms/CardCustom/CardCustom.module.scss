@@ -1,0 +1,18 @@
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 0px;
+    background-color: #f1f1f1;
+    float: left;
+  width: 25 rem;
+}
+ul > li{
+  list-style-type: none;
+  float: right;
+}
+img{
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+  float: left;
+}

@@ -1,22 +1,25 @@
 import React from "react";
 import "antd/dist/antd.css";
-import { Card } from "antd";
-import style from './CardCustom.module.scss'
-
+import style from './CardCustom.module.scss';
 const Carditem = ({carddata}) => {
   return (
     <div>
-      <Card className='card'>
-      <div className='img'>
-      <img src="https://miro.medium.com/max/1200/1*mk1-6aYaf_Bes1E3Imhc0A.jpeg" />
-      </div>
-      <ul className='no-dot'>
-      <li>Title : {carddata}</li><br />
-      <li>Genre : {carddata}</li><br />
-      <li>Director : {carddata}</li><br />
-    </ul>
-    </Card>
-    </div>
+          <div className={style.card}>
+              <div className={style.part2}>
+              <img src="https://miro.medium.com/max/1200/1*mk1-6aYaf_Bes1E3Imhc0A.jpeg" alt="Avatar" />
+                  <ul className={style.li}>
+                     <li> <h4>Title: {carddata}</h4></li>
+                      <li>Genre: : {carddata}</li>
+                       <li>Description : {carddata}</li>
+                        <li>Ratings: {carddata}</li>
+                      </ul>
+
+                </div>
+                </div>
+
+                </div>
+    
+    
   );
 }
 export default Carditem;

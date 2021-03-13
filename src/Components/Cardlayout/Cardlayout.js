@@ -3,7 +3,7 @@ import CardGrid from '../../molecules/CardsGrid/CardGrid'
 import style from './Cardlayout.module.scss'
 
 const Cardlayout = () => {
-    const details = ['Friends']
+    const details = ['Friends','Harry']
 
     return (
         <div className={style['card-layout']}>

@@ -8,12 +8,11 @@ const CardGrid = ({inputcarddata}) =>{
     return (
         <div className={style['.site-card-wrapper']}>
             <Row gutter={16}>
-            <Col span={8}>
+            <Col span={32}>
                 {
                 inputcarddata.map(
                         (k, index) => 
-                            <div key={index}>
-                              
+                            <div key={index}>       
                         <Carditem carddata={k} />
                                                
                     </div>

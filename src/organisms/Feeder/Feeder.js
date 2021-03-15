@@ -17,7 +17,7 @@ const Feeder = ({ inputData }) => {
                         <InputCustom data={k} />                        
                     </div>
                 )}
-                <Button data-test="confirm" className={style['button']} type="submit">Confirm</Button>
+                <Button className={style['button']} data-test="submit">Confirm</Button>
              </section>
              
              <section className={style['middle']}>

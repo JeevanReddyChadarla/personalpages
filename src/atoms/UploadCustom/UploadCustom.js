@@ -6,7 +6,7 @@ import { UploadOutlined } from '@ant-design/icons';
 const UploadCustom = ({text}) => {
     return (
         <div className={style['upload-feeder']}>
-           <Upload>
+           <Upload data-test="upload">
             <Button className={style['Button']} icon={<UploadOutlined />}>{text}</Button>
             </Upload>
         </div>

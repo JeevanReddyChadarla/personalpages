@@ -11,11 +11,11 @@ import Cardlayout from './Components/Cardlayout/Cardlayout';
 function App() {
   return (
     <div className="App">
-    {/* <Headers /> 
+    <Headers /> 
       <HomePage/>
 
       <FeedsPage> </FeedsPage>           
-    */}
+    
        <Cardlayout />       
         </div> 
   );

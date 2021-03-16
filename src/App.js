@@ -4,9 +4,8 @@ import 'antd/dist/antd.css';
 import HomePage from './Components/HomePage/HomePage';
 import Headers from './organisms/header/header.js'
 import FeedsPage from './Components/FeedsPage/FeedsPage';
-import CardCustom from './atoms/CardCustom/CardCustom';
-import CardGrid from './molecules/CardsGrid/CardGrid';
-import Cardlayout from './Components/Cardlayout/Cardlayout';
+import Recommended from './organisms/Recommended/Recommended';
+
 
 function App() {
   return (
@@ -15,8 +14,8 @@ function App() {
       <HomePage/>
 
       <FeedsPage> </FeedsPage>           
-    
-       <Cardlayout />       
+    <Recommended></Recommended>
+       {/* <Cardlayout />        */}
         </div> 
   );
 }

@@ -6,7 +6,7 @@ const FeedsPage = () => {
     
     return(
         <div className={style['feed-page']}>
-            <h2 data-test="">Upload video</h2>
+            <h2 data-test="VideoUpload">Upload video</h2>
             <Feeder inputData={inpt}/>
         </div>
     )

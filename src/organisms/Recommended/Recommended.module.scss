@@ -1,0 +1,15 @@
+.o-recommended{
+    display: grid;
+    grid-gap:0px;
+    &__title{
+        font-size: 1.5rem;
+        font-weight: bold;
+        text-align: left;
+        padding-left: 4rem;
+    }
+    &__card-list{
+        display: inline-flex;
+        
+        /* float: left; */
+      }
+}

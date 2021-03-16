@@ -22,8 +22,8 @@ const responsive = {
   };
 const Recommended = props => {
 return (
-<div className={style['o-recommended']} data-test="recommended_cards">
-<div className={style['o-recommended__title']} data-test="recommended_label">Recent Uploads</div>
+<div className={style['o-previousUploads']} data-test="previousUploads_cards">
+<div className={style['o-previousUploads__title']} data-test="previousUploads_label">Recent Uploads</div>
     
     <Carousel
   swipeable={false}

@@ -13,6 +13,11 @@ test('Details of the video', async t => {
         const confirmButton =  Selector("[data-test='submit']");
         const uploadButton =  Selector("[data-test=upload]");
         const VideoUpload =  Selector("[data-test='VideoUpload']");
+        const cardMetaInformation = Selector("[data-test='meta_info']");
+        const individualCard = Selector("[data-test='individual_card']");
+        const carouselNext = Selector("button[aria-label='Go to next slide']");
+        const carouselPrev = Selector("button[aria-label='Go to previous slide']");
+       
 
 
         const videoTitleVal = "HarryPotter";
@@ -20,7 +25,8 @@ test('Details of the video', async t => {
         const videoDirectorVal= "Robert Jr";
         const passwordVal = "*******";
         const videoDescriptionVal = "Most of the things present in the video is far from our imagination";
-
+        
+        
         await t
  
         .expect(VideoUpload.exists)
@@ -39,6 +45,13 @@ test('Details of the video', async t => {
         .ok()
         .expect(uploadButton.exists)
         .ok()
+        .expect(individualCard.exists)
+        .ok()
+        .expect(cardMetaInformation.exists)
+        .ok()
+
+
+        
 
         await t
         .typeText(videoTitle, videoTitleVal)
@@ -48,6 +61,8 @@ test('Details of the video', async t => {
         .typeText(videoDescription, videoDescriptionVal)
         .click(confirmButton)
         .click(uploadButton)
+        .click(carouselPrev)
+        .click(carouselNext);
 
 
 })

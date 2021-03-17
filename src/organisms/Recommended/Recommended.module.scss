@@ -1,15 +1,14 @@
 .o-previousUploads{
     display: grid;
     grid-gap:0px;
+    margin-left: 5rem;
     &__title{
         font-size: 1.5rem;
         font-weight: bold;
         text-align: left;
-        padding-left: 4rem;
     }
     &__card-list{
         display: inline-flex;
-        
         /* float: left; */
       }
 }
